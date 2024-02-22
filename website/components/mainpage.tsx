@@ -102,7 +102,7 @@ export default function Component() {
                   </Avatar>
                   <h3 className="text-xl font-bold mb-2">John Doe</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    "The community has been a great resource for my learning journey."
+                  &quot;The community has been a great resource for my learning journey.&quot;
                   </p>
                 </div>
                 <div className="flex flex-col items-center">
@@ -112,7 +112,7 @@ export default function Component() {
                   </Avatar>
                   <h3 className="text-xl font-bold mb-2">Jane Smith</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    "I love the interactive lessons and expert-led workshops."
+                  &quot;I love the interactive lessons and expert-led workshops.&quot;
                   </p>
                 </div>
                 <div className="flex flex-col items-center">
@@ -122,7 +122,7 @@ export default function Component() {
                   </Avatar>
                   <h3 className="text-xl font-bold mb-2">Alex Johnson</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    "The supportive community has been invaluable to my learning."
+                  &quot;The supportive community has been invaluable to my learning.&quot;
                   </p>
                 </div>
               </div>
