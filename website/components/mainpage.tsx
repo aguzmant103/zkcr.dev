@@ -5,6 +5,8 @@
  */
 import Link from "next/link"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
+import { Card, CardContent } from "./ui/card"
+import { Button } from "./ui/button"
 
 export default function Component() {
   return (
@@ -126,6 +128,36 @@ export default function Component() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
+          <div className="container mx-auto px-6">
+            <h3 className="text-2xl font-bold text-center mb-8">Upcoming Events</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card>
+                <CardContent className="flex flex-col items-center text-center p-4">
+                  <h4 className="text-xl font-bold mb-2">Webinar: Introduction to Zero-Knowledge Proofs</h4>
+                  <p className="mb-4">Join us for a webinar on the basics of zero-knowledge proofs.</p>
+                  <Button>Register</Button>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center text-center p-4">
+                  <h4 className="text-xl font-bold mb-2">Workshop: Building with Zero-Knowledge Cryptography</h4>
+                  <p className="mb-4">
+                    A hands-on workshop on building applications using zero-knowledge cryptography.
+                  </p>
+                  <Button>Register</Button>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardContent className="flex flex-col items-center text-center p-4">
+                  <h4 className="text-xl font-bold mb-2">Meetup: Zero-Knowledge Cryptography in Practice</h4>
+                  <p className="mb-4">Meetup for community members to share their experiences and learnings.</p>
+                  <Button>Register</Button>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
