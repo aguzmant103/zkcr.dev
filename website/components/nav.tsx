@@ -25,12 +25,12 @@ export default function Nav() {
         >
           About
         </Link>
-        {/*      <Link
+        <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/blog"
         >
           Blog
-        </Link> */}
+        </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="#"

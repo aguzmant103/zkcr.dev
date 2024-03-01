@@ -1,7 +1,7 @@
 import Footer from "@/components/footer";
 import Nav from "@/components/nav";
 
-export default function Home() {
+export default function Learn() {
   return (
     <div className="flex flex-col min-h-screen">
       <Nav />
