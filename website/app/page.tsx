@@ -22,7 +22,7 @@ export default function Home() {
                   a Web3 Community
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  let’s unlock the future of privacy and security together.
+                  let&apos;s unlock the future of privacy and security together.
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
