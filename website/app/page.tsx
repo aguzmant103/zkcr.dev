@@ -28,7 +28,7 @@ export default function Home() {
               <div className="w-full max-w-sm space-y-2">
                 <Link
                   className="inline-flex h-9 items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                  href="#"
+                  href="https://t.me/+kzFeEsJhuB8wYWYx"
                 >
                   Sign up
                 </Link>
@@ -97,7 +97,7 @@ export default function Home() {
         <section className="features-section w-full py-12 md:py-24 lg:py-32 ">
           <Features />
         </section>
-        <section className="testimonials-section w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        {/*         <section className="testimonials-section w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -154,7 +154,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="events-section w-full py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-6">
             <h3 className="text-2xl font-bold text-center mb-8">
@@ -170,7 +170,7 @@ export default function Home() {
                     Join us for a webinar on the basics of zero-knowledge
                     proofs.
                   </p>
-                  <Button>Register</Button>
+                  <Button disabled>Coming Soon</Button>
                 </CardContent>
               </Card>
               <Card>
@@ -182,7 +182,7 @@ export default function Home() {
                     A hands-on workshop on building applications using
                     zero-knowledge cryptography.
                   </p>
-                  <Button>Register</Button>
+                  <Button disabled>Coming Soon</Button>
                 </CardContent>
               </Card>
               <Card>
@@ -194,7 +194,7 @@ export default function Home() {
                     Meetup for community members to share their experiences and
                     learnings.
                   </p>
-                  <Button>Register</Button>
+                  <Button disabled>Coming Soon</Button>
                 </CardContent>
               </Card>
             </div>
