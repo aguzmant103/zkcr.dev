@@ -13,13 +13,13 @@ export default function Nav() {
         >
           Home
         </Link>
-        <Link
+        {/*         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/learn"
         >
           Learn
-        </Link>
-        <Link
+        </Link> */}
+        {/*         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/about"
         >
@@ -30,10 +30,10 @@ export default function Nav() {
           href="/blog"
         >
           Blog
-        </Link>
+        </Link> */}
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
-          href="#"
+          href="https://t.me/+kzFeEsJhuB8wYWYx"
         >
           Contact
         </Link>

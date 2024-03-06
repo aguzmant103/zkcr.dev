@@ -13,12 +13,15 @@ export default function Footer() {
         <Link className="text-xs hover:underline underline-offset-4" href="#">
           Terms of Service
         </Link>
-        <Link className="text-xs hover:underline underline-offset-4" href="#">
+        <Link
+          className="text-xs hover:underline underline-offset-4"
+          href="https://t.me/+kzFeEsJhuB8wYWYx"
+        >
           Contact Us
         </Link>
       </nav>
       <div className="flex gap-2 mt-2 sm:mt-0">
-        <Link href="https://twitter.com/zeroknowledgecr">
+        <Link href="https://twitter.com/ZKCostaRica">
           <TwitterIcon className="h-5 w-5" />
           <span className="sr-only">Twitter</span>
         </Link>
